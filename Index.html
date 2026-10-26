@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Writing Wall — A wall of words, ideas, and perspectives.</title>
+<meta name="description" content="An evolving collection of writing on technology, culture, creativity, and ideas worth exploring.">
+<meta property="og:title" content="The Writing Wall">
+<meta property="og:description" content="A wall of words, ideas, and perspectives.">
+<meta name="theme-color" content="#faf7f2">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23b4563a'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='serif'>W</text></svg>">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">The Writing Wall</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#board">Explore</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <input id="searchInput" type="search" placeholder="Search writing…" aria-label="Search writing">
+      <button id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="intro">
+  <div class="intro-grid">
+    <div>
+      <h1>A wall of words, ideas, and perspectives.</h1>
+      <p class="tagline">An evolving collection of writing on technology, culture, creativity, and the ideas worth exploring.</p>
+      <p><a class="cta" href="#board">Start browsing ↓</a></p>
+    </div>
+    <div class="featured-mini" id="featuredMini"></div>
+  </div>
+</section>
+
+<section class="toolbar" id="categories">
+  <div class="filters" id="filterBar" role="tablist" aria-label="Categories"></div>
+  <button id="clearBtn" class="ghost">Clear</button>
+</section>
+
+<section class="board-wrap">
+  <div id="board" class="masonry" aria-live="polite"></div>
+  <div id="emptyState" class="empty" hidden>
+    <h3>No matches</h3>
+    <p>Try another category or clear your search.</p>
+    <button id="resetBtn">Clear filters</button>
+  </div>
+</section>
+
+<section class="about-contact">
+  <div class="about" id="about">
+    <h2 id="aboutTitle"></h2>
+    <p id="aboutText"></p>
+  </div>
+  <div class="contact" id="contact">
+    <h2>Contact</h2>
+    <p class="muted">This site has no backend form. Use the email link below.</p>
+    <p><a id="emailLink" href="#">hello@example.com</a></p>
+    <div id="profileLinks"></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> The Writing Wall — sample content. Replace with your own.</p>
+  <p class="muted small">Static, no tracking. Built for GitHub Pages.</p>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

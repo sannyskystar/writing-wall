@@ -1,0 +1,17 @@
+{
+  "brandName": "The Writing Wall",
+  "tagline": "A wall of words, ideas, and perspectives.",
+  "intro": "An evolving collection of writing on technology, culture, creativity, and the ideas worth exploring.",
+  "categories": ["All Writing", "Technology", "Content Writing", "Technical Writing", "Ideas & Essays", "Creativity", "Short Reads"],
+  "about": {
+    "title": "About this wall",
+    "body": "The Writing Wall is a public, static archive of writing. It is intentionally simple: every article is a Markdown file in the repository. No database, no login, no tracking. Replace this paragraph with your own description."
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "profiles": [
+      {"label": "LinkedIn", "url": "#"},
+      {"label": "X", "url": "#"}
+    ]
+  }
+}
